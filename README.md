@@ -7,7 +7,7 @@ This is an emulator for the CHIP-8, written in Java, using LWJGL 2.93 for graphi
 
 #Usage
 -------
-\# ROM loading is menu-driven.
+\# ROM loading is menu-driven.\n
 \# `ESC` button quits the emulator. Closing the LWJGL window does the same.
 
 #Provided ROMs
