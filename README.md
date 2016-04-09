@@ -5,7 +5,7 @@ The `CHIP-8` isn't an actual computer, but a language interpreter used on comput
 
 For all intents and purposes, however, it's a complete system. A "virtual computer" if you will, and like any other computer can be emulated, given opcodes.
 
-This is an emulator for the CHIP-8, written in Java, using LWJGL 2.93 for graphics/input/sound.
+This is an emulator for the CHIP-8, written in Java, using OpenGL (via LWJGL 2.93) for graphics/input/sound.
 
 #Usage
 -------
