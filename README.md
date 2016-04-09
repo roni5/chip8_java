@@ -13,9 +13,9 @@ This is an emulator for the CHIP-8, written in Java, using LWJGL 2.93 for graphi
 
 \# The hexadecimal (0-F) keypad of the original CHIP-8 is mapped as follows :
 
-`  
---------
+
 ORIGINAL:
+`--------
 
 1 2 3 C
 
@@ -23,10 +23,11 @@ ORIGINAL:
 
 7 8 9 E
 
-A 0 B F
+A 0 B F`
 
 
 MAPPED:
+`--------
 
 1 2 3 4
 
@@ -36,7 +37,7 @@ A S D F
 
 Z X C V
 
---------
+--------`
 `
 #Structure
 ----------
