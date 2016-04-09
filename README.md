@@ -13,7 +13,7 @@ This is an emulator for the CHIP-8, written in Java, using LWJGL 2.93 for graphi
 
 #Provided ROMs
 --------------
-Three demos and three games, though I'm not sure of their availability in the public domain, and will remove if they are discovered to, in fact, not be in the public domain.
+Three demos and three games, in .ch8 format. Though, I'm not sure of their availability in the public domain, and will remove them if they are discovered to, in fact, not be as such.
 
 #Compilation
 ------------
