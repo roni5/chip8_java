@@ -11,6 +11,13 @@ This is an emulator for the CHIP-8, written in Java, using LWJGL 2.93 for graphi
 
 \# `ESC` button quits the emulator. Closing the LWJGL window does the same.
 
+#Structure
+----------
+The main entry point for the emulator is at /src/emu/Main.java, which also contains the UI menu.
+
+The "core" engine of the CHIP8 emulator is at /src/chip8/Chip8Core.java.
+
+
 #Provided ROMs
 --------------
 Three demos and three games, in .ch8 format. Though, I'm not sure of their availability in the public domain, and will remove them if they are discovered to, in fact, not be as such.
