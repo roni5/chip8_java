@@ -11,10 +11,10 @@ This is an emulator for the CHIP-8, written in Java, using LWJGL 2.93 for graphi
 
 \# `ESC` button quits the emulator. Closing the LWJGL window does the same.
 
-\# The hexadecimal (0-F) keypad of the original CHIP-8 is mapped as follows :
+\# The hexadecimal (0-F) keypad of the original CHIP-8 is mapped as follows.
 
 
-ORIGINAL:
+###ORIGINAL:
 --------
 
 `1 2 3 C`
@@ -26,7 +26,7 @@ ORIGINAL:
 `A 0 B F`
 
 
-MAPPED:
+###MAPPED:
 --------
 
 `1 2 3 4`
