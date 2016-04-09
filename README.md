@@ -11,6 +11,23 @@ This is an emulator for the CHIP-8, written in Java, using LWJGL 2.93 for graphi
 
 \# `ESC` button quits the emulator. Closing the LWJGL window does the same.
 
+\# The hexadecimal (0-F) keypad of the original CHIP-8 is mapped as follows :
+
+`  
+					 * --------
+					 * ORIGINAL:
+					 * 1 2 3 C
+					 * 4 5 6 D
+					 * 7 8 9 E
+					 * A 0 B F
+					 *
+					 * MAPPED:
+					 * 1 2 3 4
+					 * Q W E R
+					 * A S D F
+					 * Z X C V
+					 */
+`
 #Structure
 ----------
 The main entry point for the emulator is at /src/emu/Main.java, which also contains the UI menu.
