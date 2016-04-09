@@ -80,15 +80,18 @@ public class Main
 		
 		
 		/*
-		 * The following section is all about initing OpenGL graphics.
+		 * The following section is all about initing OpenGL 1.1 graphics.
+		 * Immediate mode is used for all graphics, rather than the modern VAO/VBO paradigm.
+		 * (Because I was lazy and threw this together really quick.)
 		 */
+		 
 		//Create new display w/ resolution = 640 x 320
 		Display.setDisplayMode(new DisplayMode(640,320));
 		Display.create();
 		//Set up a orthogonal projection (i.e. no perspective, just 2D)
 		GL11.glMatrixMode(GL11.GL_PROJECTION);
 		GL11.glLoadIdentity();					//reset view, clear any prior projections
-		GL11.glOrtho(0, 640, 320, 0, 1, -1);	//params are in the order : (left, right, bottom, top, zNear, zFar);
+		GL11.glOrtho(0, 640, 320, 0, 1, -1);			//params are in the order : (left, right, bottom, top, zNear, zFar);
 		GL11.glMatrixMode(GL11.GL_MODELVIEW);
 		//Set size of each pixel to 10x10, since we're upscaling to 640x320 from 64x32 native
 		GL11.glPointSize(10);					
@@ -144,6 +147,7 @@ public class Main
 				int y = (int) Math.floor(i/64);
 				
 				//Actually draw the point (x,y), each coordinate scaled up by 10 pixels.
+				//The trusty old openGL 1.1 immediate mode, as you can see.
 				GL11.glBegin(GL11.GL_POINTS);
 					GL11.glVertex2f(x*10, y*10);
 				GL11.glEnd();
