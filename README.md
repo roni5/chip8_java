@@ -17,6 +17,6 @@ Three demos and three games, though I'm not sure of their availability in the pu
 
 #Compilation
 ------------
-These are .java files, so compilation shouldn't be an issue. The project uses LWJGL 2.93 for openGL implementation in Java, so you'll need to add those if you want to compile this. The \lib folder contains these external JAR files, and Windows natives needed for the openGL implementation.
+These are .java files, so compilation shouldn't be an issue. The project uses LWJGL 2.93 for openGL implementation in Java, so you'll need to add those if you want to compile the project for yourself. The \lib folder contains these external JAR files, and Windows natives needed for the openGL implementation.
 
 
