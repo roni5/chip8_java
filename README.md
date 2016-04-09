@@ -11,7 +11,7 @@ This is an emulator for the CHIP-8, written in Java, using LWJGL 2.93 for graphi
 
 \# `ESC` button quits the emulator. Closing the LWJGL window does the same.
 
-\# The hexadecimal (0-F) keypad of the original CHIP-8 is mapped as follows.
+\# The hexadecimal (0-F) keypad of the original CHIP-8 is mapped on a modern keyboard as follows. Note that keys 2-4-6-8 are used for directional control (arrow keys) in most games.
 
 
 ###ORIGINAL:
