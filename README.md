@@ -15,9 +15,7 @@ This is an emulator for the CHIP-8, written in Java, using OpenGL (via LWJGL 2.9
 
 \# The hexadecimal (0-F) keypad of the original CHIP-8 is mapped on a modern keyboard as follows. Note that keys 2-4-6-8 are used for directional control (arrow keys) in most games.
 
-#Requirements
--------------
-Java, and a GPU (with its installed driver, of course) that supports OpenGL 1.1. This won't be an issue.
+
 
 ###ORIGINAL:
 --------
@@ -42,7 +40,9 @@ Java, and a GPU (with its installed driver, of course) that supports OpenGL 1.1.
 
 `Z X C V`
 
---------
+#Requirements
+-------------
+Java, and a GPU (with its installed driver, of course) that supports OpenGL 1.1. This won't be an issue.
 
 #Structure
 ----------
