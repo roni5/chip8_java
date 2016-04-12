@@ -261,7 +261,7 @@ public class Chip8Core
 						y = (opcode & 0x00f0) >> 4;
 						System.out.print("SUBN V"+x+", V"+y);
 						V[0xf] = (char) ((V[x] > V[y])? 0:1);
-						V[x] = V[y] = V[x];
+						V[x] = V[y] - V[x];
 						pc+=2;
  						break;
 					case 0xe:			//8xye : SHL Vx, Vy. Set Vx = Vx << 1. Set VF = LSB of Vx before shift.
